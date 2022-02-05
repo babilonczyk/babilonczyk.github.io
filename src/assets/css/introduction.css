@@ -1,0 +1,99 @@
+.introduction {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+  .introduction .introduction-right {
+    position: relative; }
+    .introduction .introduction-right img {
+      display: block;
+      z-index: -1;
+      transform: rotate(-135deg);
+      position: absolute;
+      right: 450px;
+      top: 175px;
+      width: 150px; }
+    .introduction .introduction-right .circle-large {
+      z-index: -2;
+      position: absolute;
+      right: 90px;
+      bottom: -105px;
+      width: 600px;
+      height: 600px;
+      border-radius: 100%;
+      background: linear-gradient(to right, transparent, #0e1110);
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, #29c7ad3f 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
+    .introduction .introduction-right .circle-small-gn-t {
+      position: absolute;
+      right: 185px;
+      top: 135px;
+      width: 5px;
+      height: 5px;
+      border-radius: 100%;
+      background: #29c7ad3f;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
+    .introduction .introduction-right .circle-small-gn-b {
+      position: absolute;
+      right: 765px;
+      top: 565px;
+      width: 5px;
+      height: 5px;
+      border-radius: 100%;
+      background: #29c7ad3f;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
+    .introduction .introduction-right .circle-small-bk {
+      position: absolute;
+      right: 670px;
+      top: 530px;
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background: #1d1f1f;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
+    .introduction .introduction-right .circle-linkedin {
+      position: absolute;
+      right: 470px;
+      top: 460px;
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      background: #151817;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
+      .introduction .introduction-right .circle-linkedin svg {
+        display: block;
+        height: 120px;
+        line-height: 120px;
+        margin: 0 auto;
+        color: #1964be;
+        font-size: 35px; }
+    .introduction .introduction-right .circle-mail {
+      position: absolute;
+      right: 260px;
+      top: 340px;
+      width: 150px;
+      height: 150px;
+      border-radius: 100%;
+      background: #101412;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
+      .introduction .introduction-right .circle-mail svg {
+        display: block;
+        height: 150px;
+        line-height: 150px;
+        margin: 0 auto;
+        color: #b5bac0;
+        font-size: 40px; }
+    .introduction .introduction-right .circle-github {
+      position: absolute;
+      right: 40px;
+      top: 150px;
+      width: 210px;
+      height: 210px;
+      border-radius: 100%;
+      background: #0e1110;
+      box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
+      .introduction .introduction-right .circle-github svg {
+        display: block;
+        height: 210px;
+        line-height: 210px;
+        margin: 0 auto;
+        color: #d7dfe4;
+        font-size: 45px; }
