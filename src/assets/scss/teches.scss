@@ -1,0 +1,36 @@
+.teches{
+    padding: 10px 0;
+    min-height: 80px;
+    width: 100%;
+
+    .teches-wrapper{
+        display: grid;
+        //background-color: #324 ;
+        max-width: 1040px;
+        width: 100%;
+        grid-auto-rows: 60px;
+        grid-template-columns: repeat(9, 60px);
+        column-gap: 63px;
+        margin: 0 auto;
+
+        .tech{
+            display: grid;
+            grid-template-rows: 55px 20px;
+
+            img{
+                margin: 17.5px;
+                height: 35px;
+                width: 35px;
+            }
+
+            span{
+                font-size: 11px;
+                color: $light-gray;
+                text-align: center;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+        
+    }
+}

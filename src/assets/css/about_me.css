@@ -1,3 +1,39 @@
 .about-me {
   min-height: 550px;
-  background-color: black; }
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px; }
+  .about-me .about-me-left {
+    padding-left: 30px; }
+    .about-me .about-me-left .img-wrapper {
+      display: block;
+      margin: 135px auto 0 auto;
+      width: 230px;
+      height: 230px;
+      overflow: hidden;
+      border: 15px solid transparent;
+      outline: 2px solid #29c7ad3f;
+      border-radius: 12px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
+      .about-me .about-me-left .img-wrapper img {
+        display: block;
+        height: 230px;
+        width: 230px;
+        background: transparent;
+        border-radius: 7px; }
+  .about-me .about-me-right {
+    display: grid;
+    grid-template-rows: 60px auto auto auto 1fr;
+    padding: 60px 0 0 20px;
+    row-gap: 20px; }
+    .about-me .about-me-right h2 {
+      color: #fff; }
+    .about-me .about-me-right .about-me-paragraph {
+      margin: 0;
+      padding: 0;
+      font-size: 17px;
+      max-width: 550px;
+      word-spacing: 3px;
+      line-height: 36px;
+      color: #b5bac0f1; }

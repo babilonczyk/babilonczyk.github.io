@@ -15,9 +15,9 @@ const Navbar = () => {
       <div></div>
 
       <div className="nav-btns">
-        <a className="nav-btn--active" href="/"><span>About_Me</span></a>
+        <a className="nav-btn--active" href="#about-me"><span>About_Me</span></a>
         <a href="/"><span>Services</span></a>
-        <a href="/"><span>Projects</span></a>
+        <a href="/"><span>Experience</span></a>
       </div>
     </nav>
   );
