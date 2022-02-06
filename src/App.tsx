@@ -5,6 +5,7 @@ import AboutMe from './components/AboutMe';
 import Teches from './components/Teches';
 import Services from './components/Services';
 import * as constants from './constants';
+import Experience from './components/Experience';
 
 function App() { 
   return (
@@ -19,6 +20,8 @@ function App() {
       < Teches items={constants.teches.items}/>
 
       < Services />
+
+      < Experience />
 
     </div>
   );

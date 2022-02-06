@@ -49,21 +49,21 @@ body {
         font-weight: 600;
         font-size: 14px; }
         body .App .navbar .nav-btns a:hover {
-          color: #29C7AC; }
+          color: #28b981; }
         body .App .navbar .nav-btns a:nth-of-type(1).nav-btn--active {
-          color: #29C7AC; }
+          color: #28b981; }
           body .App .navbar .nav-btns a:nth-of-type(1).nav-btn--active span {
             display: none; }
           body .App .navbar .nav-btns a:nth-of-type(1).nav-btn--active::after {
             content: '< About_Me />'; }
         body .App .navbar .nav-btns a:nth-of-type(2).nav-btn--active {
-          color: #29C7AC; }
+          color: #28b981; }
           body .App .navbar .nav-btns a:nth-of-type(2).nav-btn--active span {
             display: none; }
           body .App .navbar .nav-btns a:nth-of-type(2).nav-btn--active::after {
             content: '< Services />'; }
         body .App .navbar .nav-btns a:nth-of-type(3).nav-btn--active {
-          color: #29C7AC; }
+          color: #28b981; }
           body .App .navbar .nav-btns a:nth-of-type(3).nav-btn--active span {
             display: none; }
           body .App .navbar .nav-btns a:nth-of-type(3).nav-btn--active::after {
@@ -88,7 +88,7 @@ body {
         display: block;
         width: 148px;
         text-align: center;
-        background-color: #29C7AC;
+        background-color: #28b981;
         color: #fff;
         padding: 0 6px;
         height: 30px;
@@ -103,7 +103,7 @@ body {
           margin-top: 25px; }
       body .App .introduction .introduction-left p {
         padding: 10px 0 0 0;
-        font-size: 17px;
+        font-size: 16px;
         max-width: 500px;
         word-spacing: 3px;
         line-height: 36px;
@@ -111,7 +111,7 @@ body {
       body .App .introduction .introduction-left a {
         padding: 30px 0 0 0;
         text-decoration: underline;
-        color: #29C7AC;
+        color: #28b981;
         font-size: 18px;
         text-align: left; }
       body .App .introduction .introduction-left .counter .counter-referrals {
@@ -199,7 +199,7 @@ body {
         width: 6px;
         height: 6px;
         border-radius: 100%;
-        background: #29C7AC;
+        background: #28b981;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-cc {
         position: absolute;
@@ -208,10 +208,10 @@ body {
         width: 7px;
         height: 7px;
         border-radius: 100%;
-        background: #29C7AC;
+        background: #28b981;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
         border: 5px solid #101412;
-        outline: 1px solid #29C7AC; }
+        outline: 1px solid #28b981; }
       body .App .introduction .introduction-right .circle-small-gn-t {
         position: absolute;
         right: -80px;
@@ -219,7 +219,7 @@ body {
         width: 2px;
         height: 2px;
         border-radius: 100%;
-        background: #29C7AC;
+        background: #28b981;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-tt {
         position: absolute;
@@ -228,11 +228,11 @@ body {
         width: 5px;
         height: 5px;
         border-radius: 100%;
-        background: #29C7AC;
+        background: #28b981;
         opacity: 0.8;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
         border: 3px solid #101412;
-        outline: 1px solid #29C7AC; }
+        outline: 1px solid #28b981; }
       body .App .introduction .introduction-right .circle-small-gn-ttt {
         position: absolute;
         right: -40px;
@@ -240,7 +240,7 @@ body {
         width: 3px;
         height: 3px;
         border-radius: 100%;
-        background: #29c7ad3f;
+        background: #28b98198;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-b {
         position: absolute;
@@ -249,7 +249,7 @@ body {
         width: 2px;
         height: 2px;
         border-radius: 100%;
-        background: #29C7AC;
+        background: #28b981;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-bb {
         position: absolute;
@@ -258,7 +258,7 @@ body {
         width: 3px;
         height: 3px;
         border-radius: 100%;
-        background: #29c7ad3f;
+        background: #28b98198;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-bbb {
         position: absolute;
@@ -267,10 +267,10 @@ body {
         width: 4px;
         height: 4px;
         border-radius: 100%;
-        background: #29C7AC;
+        background: #28b981;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
         border: 3px solid #101412;
-        outline: 1px solid #29C7AC; }
+        outline: 1px solid #28b981; }
       body .App .introduction .introduction-right .circle-small-bk {
         position: absolute;
         right: 470px;
@@ -377,7 +377,7 @@ body {
         height: 230px;
         overflow: hidden;
         border: 15px solid transparent;
-        outline: 2px solid #29c7ad3f;
+        outline: 2px solid #28b98198;
         border-radius: 12px;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
         body .App .about-me .about-me-left .img-wrapper img {
@@ -396,11 +396,11 @@ body {
       body .App .about-me .about-me-right .about-me-paragraph {
         margin: 0;
         padding: 0;
-        font-size: 17px;
+        font-size: 16px;
         max-width: 550px;
         word-spacing: 3px;
         line-height: 36px;
-        color: #b5bac0f1; }
+        color: #8a9097; }
   body .App .teches {
     padding: 10px 0 15px 0;
     min-height: 80px;
@@ -427,19 +427,83 @@ body {
           font-weight: 400;
           line-height: 26px; }
   body .App .services {
-    min-height: 550px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    min-height: 590px;
     background-color: black; }
     body .App .services .services-wrapper {
       max-width: 1100px;
       width: calc(100% - 400px);
-      margin: 0 auto; }
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
       body .App .services .services-wrapper .services-left {
         display: grid;
         grid-template-rows: 60px auto;
         padding: 60px 0 0 0;
         row-gap: 20px; }
         body .App .services .services-wrapper .services-left h2 {
-          color: #fff; }
+          margin-top: 10px;
+          color: #fff;
+          padding-left: 42px; }
+        body .App .services .services-wrapper .services-left .services-btns {
+          display: grid;
+          grid-template-rows: 100px 100px 100px;
+          row-gap: 25px; }
+          body .App .services .services-wrapper .services-left .services-btns .services-btn {
+            border-radius: 17px;
+            height: 100px;
+            width: 300px;
+            background-color: #1d1f1fb0;
+            border: 10px solid black;
+            outline: 2px solid transparent;
+            cursor: pointer; }
+            body .App .services .services-wrapper .services-left .services-btns .services-btn h4 {
+              padding: 20px 0 15px 20px;
+              font-size: 18px;
+              margin: 0;
+              color: #b5bac0f1; }
+            body .App .services .services-wrapper .services-left .services-btns .services-btn span {
+              padding: 20px 0 0 20px;
+              font-size: 16px;
+              margin: 10px 0 0 0;
+              font-weight: 400;
+              color: #8a9097; }
+            body .App .services .services-wrapper .services-left .services-btns .services-btn.react-tabs__tab--selected {
+              outline: 2px solid #28b98198;
+              background-color: #1d1f1f; }
+              body .App .services .services-wrapper .services-left .services-btns .services-btn.react-tabs__tab--selected h4 {
+                color: #28b981; }
+      body .App .services .services-wrapper .services-right {
+        padding: 160px 0 0 0; }
+        body .App .services .services-wrapper .services-right .services-content {
+          width: 100%;
+          height: 365px; }
+          body .App .services .services-wrapper .services-right .services-content .services-content-panel {
+            display: none;
+            position: relative; }
+            body .App .services .services-wrapper .services-right .services-content .services-content-panel.react-tabs__tab-panel--selected {
+              height: 100%;
+              border: 1px solid #28b981;
+              width: 100%;
+              border-radius: 17px;
+              display: block; }
+            body .App .services .services-wrapper .services-right .services-content .services-content-panel h4 {
+              color: #b5bac0f1;
+              position: absolute;
+              top: -40px;
+              right: 50px;
+              background-color: black;
+              padding: 5px 14px;
+              font-size: 17px;
+              font-weight: 600;
+              border-radius: 4px; }
+            body .App .services .services-wrapper .services-right .services-content .services-content-panel p {
+              color: #8a9097;
+              margin: 0;
+              padding: 40px 30px 0 30px;
+              font-size: 16px;
+              word-spacing: 3px;
+              line-height: 36px; }
+  body .App .experience {
+    padding: 10px 0 15px 0;
+    height: 400px;
+    width: 100%; }

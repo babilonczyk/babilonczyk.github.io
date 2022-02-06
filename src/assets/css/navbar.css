@@ -41,21 +41,21 @@
       font-weight: 600;
       font-size: 14px; }
       .navbar .nav-btns a:hover {
-        color: #29C7AC; }
+        color: #28b981; }
       .navbar .nav-btns a:nth-of-type(1).nav-btn--active {
-        color: #29C7AC; }
+        color: #28b981; }
         .navbar .nav-btns a:nth-of-type(1).nav-btn--active span {
           display: none; }
         .navbar .nav-btns a:nth-of-type(1).nav-btn--active::after {
           content: '< About_Me />'; }
       .navbar .nav-btns a:nth-of-type(2).nav-btn--active {
-        color: #29C7AC; }
+        color: #28b981; }
         .navbar .nav-btns a:nth-of-type(2).nav-btn--active span {
           display: none; }
         .navbar .nav-btns a:nth-of-type(2).nav-btn--active::after {
           content: '< Services />'; }
       .navbar .nav-btns a:nth-of-type(3).nav-btn--active {
-        color: #29C7AC; }
+        color: #28b981; }
         .navbar .nav-btns a:nth-of-type(3).nav-btn--active span {
           display: none; }
         .navbar .nav-btns a:nth-of-type(3).nav-btn--active::after {

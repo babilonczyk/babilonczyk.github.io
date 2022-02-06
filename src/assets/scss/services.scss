@@ -1,16 +1,15 @@
 @import "vars";
 
 .services{
-    min-height: 550px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    min-height: 590px;
     background-color: black;
 
     .services-wrapper{
         max-width: 1100px;
         width: calc(100% - 400px);
         margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
         .services-left{
             display: grid;
@@ -19,14 +18,97 @@
             row-gap: 20px;
 
             h2{
+                margin-top: 10px;
                 color: #fff;
-            }   
-    
+                padding-left: 42px;
+            }
+
+
+            .services-btns{
+                display: grid;
+                grid-template-rows: 100px 100px 100px;
+                row-gap: 25px;
+
+                .services-btn{
+                    border-radius: 17px;
+                    height: 100px;
+                    width: 300px;
+                    background-color: $gray;
+                    border: 10px solid black;
+                    outline: 2px solid transparent;
+                    cursor: pointer;
+
+                    h4{
+                        padding: 20px 0 15px 20px;
+                        font-size: 18px;
+                        margin: 0;
+                        color: $lightest-gray;
+                    }
+
+                    span{
+                        padding: 20px 0 0 20px;
+                        font-size: 16px;
+                        margin: 10px 0 0 0; 
+                        font-weight: 400;
+                        color: $paper-gray;
+                    }
+
+                    &.react-tabs__tab--selected{
+                        outline: 2px solid $neon-light-green;
+                        background-color: $dark-gray;
+
+                        h4{
+                            color: $neon-green;
+                        }
+                    }
+                }   
+            }
+  
         }
 
 
         .services-right{
+            padding: 160px 0 0 0;
 
+            .services-content{
+                width: 100%;
+                height: 365px;
+
+                .services-content-panel{
+                    display: none;
+                    position: relative;
+
+                    &.react-tabs__tab-panel--selected{
+                        height: 100%;
+                        border: 1px solid $neon-green;
+                        width: 100%;
+                        border-radius: 17px;
+                        display: block;
+                        //background-color: $dark-gray
+                    }
+                    
+                    h4{
+                        color: $lightest-gray;
+                        position: absolute;
+                        top: -40px;
+                        right: 50px;
+                        background-color: black;
+                        padding: 5px 14px;
+                        font-size: 17px;
+                        font-weight: 600;
+                        border-radius: 4px;
+                    }
+
+                    p{
+                        color: $paper-gray;
+                        margin: 0;
+                        padding: 40px 30px 0 30px;
+                        font-size: 16px;
+                        word-spacing: 3px;
+                        line-height: 36px;
+                    }
+                }
+            }
         }
     }
 }
