@@ -4,6 +4,7 @@ import Introduction from './components/Introduction';
 import AboutMe from './components/AboutMe';
 import Teches from './components/Teches';
 import Services from './components/Services';
+import * as constants from './constants';
 
 function App() { 
   return (
@@ -11,11 +12,11 @@ function App() {
       
       < Navbar />
       
-      < Introduction />
+      < Introduction experience={constants.experienceYears} referrals={constants.referralsCount} />
 
       < AboutMe />
 
-      < Teches />
+      < Teches items={constants.teches.items}/>
 
       < Services />
 

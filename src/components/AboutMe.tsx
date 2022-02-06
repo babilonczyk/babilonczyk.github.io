@@ -1,6 +1,6 @@
 import me from '../assets/img/me.png'; 
 
-const AboutMe = () => {
+const AboutMe: React.FC = () => {
    
     return (
         <section className="about-me" id="about-me"> 
@@ -22,7 +22,7 @@ const AboutMe = () => {
                 </p>
 
                 <p className="about-me-paragraph">
-                    My area of expertise is in web development. I know both back-end technologies like 
+                    My area of expertise lays in web development. I know both back-end technologies like 
                     Ruby on Rails or Node.js/Express.js and front-end libraries like React.js and Typescript. 
                 </p>
 

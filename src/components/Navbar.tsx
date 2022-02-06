@@ -1,5 +1,5 @@
 
-const Navbar = () => {
+const Navbar: React.FC  = () => {
 
   return (
     <nav className="navbar">

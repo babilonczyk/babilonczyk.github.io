@@ -1,19 +1,21 @@
-import rocket from '../assets/img/rocket.png';
+import rocket from '../assets/img/rocket.svg';
 import arrow from '../assets/img/arrow.png'; 
+import IntroductionProps from '../models/IntroductionProps';
+import * as constants from '../constants';
 
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"; 
 import { faHeart, faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
-const Introduction = () => {
+const Introduction: React.FC<IntroductionProps> = props => {
   
   return (
     <section className="introduction">
       
       <div className='introduction-left'>
-        <div className="tag">Full-stack Developer</div>
+        <div className="tag">Full-stack Developer</div> 
         <h2>Simple & Powerful.</h2>
         <h2>Projects with Impact. </h2>
 
@@ -23,15 +25,14 @@ const Introduction = () => {
 
         <a href="/">LET'S CHAT</a>
 
-
         <div className="counter">
           <div className="counter-referrals">
               <h4>REFERRALS:</h4>
-              <span className='counter-referrals-number'>2</span>
+              <span className='counter-referrals-number'>{constants.referralsCount}</span>
           </div>
           <div className="counter-experience">
               <h4>DEV EXP:</h4>
-              <span className='counter-experience-number'>1.5 years</span>
+              <span className='counter-experience-number'>{constants.experienceYears} years</span>
           </div>
         </div>
       </div>
@@ -45,6 +46,7 @@ const Introduction = () => {
         <div className='circle-small-bk'>
           <FontAwesomeIcon icon={faHeart} />
         </div>
+
         <div className='circle-small-gn-t'></div>
         <div className='circle-small-gn-tt'></div>
         <div className='circle-small-gn-ttt'></div>
