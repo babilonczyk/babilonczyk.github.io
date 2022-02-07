@@ -41,10 +41,10 @@ const Services: React.FC  = () => {
                         </TabPanel>
                         <TabPanel className="services-content-panel">
                             <h4>Blockchain</h4>
-                            <p>Blockchain technology starts geting more use cases that can be implemented in 
+                            <p>Blockchain technology starts to get more use cases that can be implemented in 
                                 web applications with each passing year. With some people even preferring to 
                                 pay for services using crypto. Gaining commercial experience in this area is 
-                                something I'm interested in.
+                                something I'm deeply interested in.
                             </p>
                         </TabPanel>
                     </div>

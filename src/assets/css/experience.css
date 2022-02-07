@@ -1,0 +1,117 @@
+.experience {
+  padding: 10px 20px 15px 20px;
+  min-height: 750px;
+  width: calc(100% - 60px); }
+  .experience h2 {
+    display: block;
+    max-width: 1000px;
+    height: 130px;
+    line-height: 130px;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: left; }
+  .experience .experience-box {
+    max-width: 1000px;
+    height: 550px;
+    margin: 10px auto 0 auto;
+    border-radius: 7px 7px 200px 7px;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    outline: 2px solid #28b98198;
+    background: linear-gradient(to right, #0e1110, black); }
+    .experience .experience-box .experience-box-nav {
+      list-style: none; }
+      .experience .experience-box .experience-box-nav h4 {
+        color: #b5bac0f1;
+        margin-top: 80px;
+        margin-bottom: 50px;
+        font-size: 17px; }
+      .experience .experience-box .experience-box-nav .experience-btn {
+        margin: 30px 0;
+        display: grid;
+        grid-template-columns: 10px auto;
+        column-gap: 25px;
+        cursor: pointer; }
+        .experience .experience-box .experience-box-nav .experience-btn:hover h5 {
+          color: #b5bac0f1; }
+        .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected:hover {
+          color: #28b981; }
+        .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected .experience-btn-state {
+          background-color: #28b981; }
+        .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected h5 {
+          color: #28b981; }
+        .experience .experience-box .experience-box-nav .experience-btn .experience-btn-state {
+          margin-top: 10px;
+          width: 4px;
+          height: 4px;
+          border-radius: 100px;
+          border: 3px solid #101412;
+          outline: 3px solid #28b981; }
+        .experience .experience-box .experience-box-nav .experience-btn h5 {
+          text-align: left;
+          color: #8a9097;
+          font-weight: 700;
+          font-size: 17px;
+          padding: 0;
+          margin: 0;
+          line-height: 30px; }
+    .experience .experience-box .experience-box-content {
+      position: relative; }
+      .experience .experience-box .experience-box-content .experience-box-content-box {
+        display: block;
+        border-radius: 200px 7px 200px 7px;
+        background: black;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
+        width: calc(100% + 30px);
+        height: calc(100% - 30px);
+        position: absolute;
+        top: 70px;
+        z-index: 2;
+        outline: 2px solid #28b98198;
+        position: relative; }
+        .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
+          position: absolute;
+          top: -45px;
+          right: 120px;
+          background-color: black;
+          padding: 5px 14px;
+          color: #b5bac0f1;
+          font-size: 17px;
+          font-weight: 600; }
+        .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
+          margin: 0;
+          padding: 60px 0 0 120px;
+          text-align: left;
+          font-size: 20px;
+          word-spacing: 3px;
+          line-height: 36px;
+          color: #fff; }
+        .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
+          margin: 0;
+          padding: 30px 40px 40px 120px;
+          font-size: 16px;
+          word-spacing: 3px;
+          line-height: 36px;
+          color: #8a9097; }
+      .experience .experience-box .experience-box-content .gn-ball-r {
+        position: absolute;
+        right: -25px;
+        bottom: -25px;
+        height: 150px;
+        width: 150px;
+        border-radius: 100%;
+        background: #28b981;
+        opacity: 0.8;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
+        border: 15px solid #101412;
+        outline: 4px solid #28b981;
+        z-index: 1; }
+      .experience .experience-box .experience-box-content .curve {
+        display: block;
+        position: absolute;
+        left: -60px;
+        top: 20px;
+        z-index: 1;
+        width: 590px;
+        opacity: 0.6; }

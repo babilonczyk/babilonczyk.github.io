@@ -20,10 +20,10 @@ const Introduction: React.FC<IntroductionProps> = props => {
         <h2>Projects with Impact. </h2>
 
         <p>Hi, I'm a full-stack developer who will design a custom solution for your idea
-          & make it fly to the moon!
+          & make it fly to the moon.
         </p>
 
-        <a href="/">LET'S CHAT</a>
+        <a href="/">LET'S CHAT!</a>
 
         <div className="counter">
           <div className="counter-referrals">

@@ -1,4 +1,4 @@
-import me from '../assets/img/me.png'; 
+import me from '../assets/img/me-1.png'; 
 
 const AboutMe: React.FC = () => {
    
@@ -8,6 +8,7 @@ const AboutMe: React.FC = () => {
             <div className="about-me-left">
                 <div className="img-wrapper">
                     <img src={me} alt="jan piotrzkowski" /> 
+                    <div className="img-overley"></div>
                 </div>
             </div>
 

@@ -29,7 +29,7 @@ body {
         line-height: 50px;
         margin: 0;
         padding: 0;
-        font-size: 25px; }
+        font-size: 27px; }
         body .App .navbar .nav-title h2 span:first-of-type {
           font-weight: 600;
           color: #ffffff;
@@ -190,7 +190,7 @@ body {
         width: 600px;
         height: 600px;
         border-radius: 100%;
-        background: linear-gradient(to right, transparent, #101412);
+        background: linear-gradient(to right bottom, transparent, #0e1110);
         box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
       body .App .introduction .introduction-right .circle-small-gn-c {
         position: absolute;
@@ -379,13 +379,25 @@ body {
         border: 15px solid transparent;
         outline: 2px solid #28b98198;
         border-radius: 12px;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
+        position: relative; }
         body .App .about-me .about-me-left .img-wrapper img {
           display: block;
           height: 230px;
           width: 230px;
           background: transparent;
           border-radius: 7px; }
+        body .App .about-me .about-me-left .img-wrapper .img-overley {
+          background: #04850a;
+          opacity: 0.05;
+          display: block;
+          height: 230px;
+          width: 230px;
+          border-radius: 7px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 1; }
     body .App .about-me .about-me-right {
       display: grid;
       grid-template-rows: 60px auto auto auto 1fr;
@@ -473,7 +485,7 @@ body {
               body .App .services .services-wrapper .services-left .services-btns .services-btn.react-tabs__tab--selected h4 {
                 color: #28b981; }
       body .App .services .services-wrapper .services-right {
-        padding: 160px 0 0 0; }
+        padding: 153px 0 0 0; }
         body .App .services .services-wrapper .services-right .services-content {
           width: 100%;
           height: 365px; }
@@ -494,8 +506,7 @@ body {
               background-color: black;
               padding: 5px 14px;
               font-size: 17px;
-              font-weight: 600;
-              border-radius: 4px; }
+              font-weight: 600; }
             body .App .services .services-wrapper .services-right .services-content .services-content-panel p {
               color: #8a9097;
               margin: 0;
@@ -504,6 +515,145 @@ body {
               word-spacing: 3px;
               line-height: 36px; }
   body .App .experience {
-    padding: 10px 0 15px 0;
-    height: 400px;
-    width: 100%; }
+    padding: 10px 20px 15px 20px;
+    min-height: 750px;
+    width: calc(100% - 60px); }
+    body .App .experience h2 {
+      display: block;
+      max-width: 1000px;
+      height: 130px;
+      line-height: 130px;
+      width: 100%;
+      margin: 0 auto;
+      color: #fff;
+      text-align: left; }
+    body .App .experience .experience-box {
+      max-width: 1000px;
+      height: 550px;
+      margin: 10px auto 0 auto;
+      border-radius: 7px 7px 200px 7px;
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      outline: 2px solid #28b98198;
+      background: linear-gradient(to right, #0e1110, black); }
+      body .App .experience .experience-box .experience-box-nav {
+        list-style: none; }
+        body .App .experience .experience-box .experience-box-nav h4 {
+          color: #b5bac0f1;
+          margin-top: 80px;
+          margin-bottom: 50px;
+          font-size: 17px; }
+        body .App .experience .experience-box .experience-box-nav .experience-btn {
+          margin: 30px 0;
+          display: grid;
+          grid-template-columns: 10px auto;
+          column-gap: 25px;
+          cursor: pointer; }
+          body .App .experience .experience-box .experience-box-nav .experience-btn:hover h5 {
+            color: #b5bac0f1; }
+          body .App .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected:hover {
+            color: #28b981; }
+          body .App .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected .experience-btn-state {
+            background-color: #28b981; }
+          body .App .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected h5 {
+            color: #28b981; }
+          body .App .experience .experience-box .experience-box-nav .experience-btn .experience-btn-state {
+            margin-top: 10px;
+            width: 4px;
+            height: 4px;
+            border-radius: 100px;
+            border: 3px solid #101412;
+            outline: 3px solid #28b981; }
+          body .App .experience .experience-box .experience-box-nav .experience-btn h5 {
+            text-align: left;
+            color: #8a9097;
+            font-weight: 700;
+            font-size: 17px;
+            padding: 0;
+            margin: 0;
+            line-height: 30px; }
+      body .App .experience .experience-box .experience-box-content {
+        position: relative; }
+        body .App .experience .experience-box .experience-box-content .experience-box-content-box {
+          display: block;
+          border-radius: 200px 7px 200px 7px;
+          background: black;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
+          width: calc(100% + 30px);
+          height: calc(100% - 30px);
+          position: absolute;
+          top: 70px;
+          z-index: 2;
+          outline: 2px solid #28b98198;
+          position: relative; }
+          body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
+            position: absolute;
+            top: -45px;
+            right: 120px;
+            background-color: black;
+            padding: 5px 14px;
+            color: #b5bac0f1;
+            font-size: 17px;
+            font-weight: 600; }
+          body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
+            margin: 0;
+            padding: 60px 0 0 120px;
+            text-align: left;
+            font-size: 20px;
+            word-spacing: 3px;
+            line-height: 36px;
+            color: #fff; }
+          body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
+            margin: 0;
+            padding: 30px 40px 40px 120px;
+            font-size: 16px;
+            word-spacing: 3px;
+            line-height: 36px;
+            color: #8a9097; }
+        body .App .experience .experience-box .experience-box-content .gn-ball-r {
+          position: absolute;
+          right: -25px;
+          bottom: -25px;
+          height: 150px;
+          width: 150px;
+          border-radius: 100%;
+          background: #28b981;
+          opacity: 0.8;
+          box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
+          border: 15px solid #101412;
+          outline: 4px solid #28b981;
+          z-index: 1; }
+        body .App .experience .experience-box .experience-box-content .curve {
+          display: block;
+          position: absolute;
+          left: -60px;
+          top: 20px;
+          z-index: 1;
+          width: 590px;
+          opacity: 0.6; }
+  body .App .footer {
+    height: 100px;
+    margin-top: 50px;
+    background: black; }
+    body .App .footer .footer-wrapper {
+      display: grid;
+      grid-template-columns: auto 1fr auto 1fr;
+      max-width: 230px;
+      margin: 0 auto;
+      column-gap: 5px; }
+      body .App .footer .footer-wrapper span {
+        color: #8a9097;
+        text-align: left;
+        line-height: 100px; }
+      body .App .footer .footer-wrapper svg {
+        line-height: 100px;
+        width: 15px;
+        display: block;
+        margin: 43px auto 0 auto;
+        text-align: center; }
+        body .App .footer .footer-wrapper svg:first-of-type {
+          color: #db4343; }
+      body .App .footer .footer-wrapper img {
+        display: block;
+        margin: 47px auto 0 auto;
+        width: 15px; }

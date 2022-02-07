@@ -33,7 +33,7 @@
         margin-top: 25px; }
     .introduction .introduction-left p {
       padding: 10px 0 0 0;
-      font-size: 17px;
+      font-size: 16px;
       max-width: 500px;
       word-spacing: 3px;
       line-height: 36px;
@@ -120,7 +120,7 @@
       width: 600px;
       height: 600px;
       border-radius: 100%;
-      background: linear-gradient(to right, transparent, #101412);
+      background: linear-gradient(to right bottom, transparent, #0e1110);
       box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
     .introduction .introduction-right .circle-small-gn-c {
       position: absolute;

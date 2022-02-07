@@ -10,17 +10,19 @@ body{
     padding: 0; 
     margin: 0;
       
-    .App{   
+    .App{    
         @import "navbar";   
-
+ 
         @import "introduction";   
 
         @import "about_me"; 
 
         @import "teches"; 
-
+ 
         @import "services"; 
 
         @import "experience"; 
+
+        @import "footer";
     }
-}   
+}    

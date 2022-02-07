@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+
+import * as constants from './constants';
+
+import Navbar from './components/Navbar'; 
 import Introduction from './components/Introduction';
 import AboutMe from './components/AboutMe';
 import Teches from './components/Teches';
 import Services from './components/Services';
-import * as constants from './constants';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 
 function App() { 
   return (
@@ -22,6 +25,8 @@ function App() {
       < Services />
 
       < Experience />
+ 
+      < Footer />
 
     </div>
   );
