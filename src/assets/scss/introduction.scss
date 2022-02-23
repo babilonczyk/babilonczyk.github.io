@@ -43,6 +43,10 @@
             color: #fff;
             font-size: 33px;
 
+            @media only screen and (max-width: 480px) {
+                font-size: 26px;
+            }  
+
             &:first-of-type{
                 margin-top: 25px;
             }
@@ -77,6 +81,10 @@
                 display: grid;
                 grid-template-columns: auto 1fr;
                 float: left;
+
+                @media only screen and (max-width: 480px) {
+                    height: 150px;
+                }
                 
                 h4{
                     height: 200px;
@@ -86,6 +94,11 @@
                     font-size: 15px;
                     font-weight: 400;
                     color: $light-gray;
+
+                    @media only screen and (max-width: 480px) {
+                        font-size: 14px;
+                        line-height: 150px;
+                    }
                 }
 
                 .counter-referrals-number{
@@ -96,6 +109,15 @@
                     font-weight: 400;
                     padding: 0 0 0 10px;
                     color: #fff;
+
+                    @media only screen and (max-width: 480px) {
+                        font-size: 14px;
+                        line-height: 150px;
+                    }
+
+                    @media only screen and (max-width: 480px) {
+                        font-size: 14px;
+                    }
                 }
             }
 
@@ -115,6 +137,11 @@
                     font-size: 15px;
                     font-weight: 400;
                     color: $light-gray;
+                    
+                    @media only screen and (max-width: 480px) {
+                        font-size: 14px;
+                        line-height: 150px;
+                    }
                 }
 
                 .counter-experience-number{
@@ -125,6 +152,11 @@
                     font-weight: 400;
                     padding: 0 0 0 10px;
                     color: #fff;
+                    
+                    @media only screen and (max-width: 480px) {
+                        font-size: 14px;
+                        line-height: 150px;
+                    }
                 }
             }
         }

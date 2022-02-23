@@ -6,6 +6,12 @@
     width: calc(100% - 60px);
     background:  linear-gradient(to bottom, transprent, black);
 
+
+    @media only screen and (max-width: 480px) {
+        padding: 10px 0 15px 0;
+        width: 100%;
+    }
+
     h2{ 
         display: block;
         max-width: 1000px;
@@ -15,6 +21,10 @@
         margin: 0 auto;
         color: #fff;
         text-align: left;
+
+        @media only screen and (max-width: 480px) {
+            padding-left: 40px;
+        }
     }   
 
     .experience-box{
@@ -62,6 +72,11 @@
                 column-gap: 25px;
                 cursor: pointer;
 
+                @media only screen and (max-width: 480px) {
+                    column-gap: 10px;
+                    margin: 10px 0;
+                }
+
                 @media only screen and (max-width: 780px) {
                     margin: 15px 0;
                 }
@@ -105,6 +120,10 @@
                     padding: 0;
                     margin: 0;
                     line-height: 30px;
+
+                    @media only screen and (max-width: 480px) {
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -127,7 +146,7 @@
 
                 @media only screen and (max-width: 780px) {
                     top: 0;  
-                    min-height: 500px;     
+                    min-height: 530px;     
                     border-radius: 7px 7px 200px 7px;
 
                 }
@@ -161,7 +180,7 @@
                         
 
                         @media only screen and (max-width: 780px) {
-                           padding: 60px 0 0 40px;
+                           padding: 40px 0 0 40px;
                         }
                     }
 
@@ -193,6 +212,11 @@
                 border: 15px solid $light-black;
                 outline: 4px solid $neon-green;
                 z-index: 1;
+
+                @media only screen and (max-width: 480px) {
+                    right: -15px;
+                    bottom: -15px;
+                }
             }
 
             .curve{
