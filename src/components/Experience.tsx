@@ -32,17 +32,17 @@ const Experience: React.FC  = () => {
                     <div className="experience-box-content-box">
                         <TabPanel className="experience-box-content-panel">
                             <h5>2022</h5>
-                            <h4>What new?</h4>
+                            <h4>Now</h4>
                             <p>Lorem Ipsum is simply dummy text of the. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                         </TabPanel>
                         <TabPanel className="experience-box-content-panel">
                             <h5>2021</h5>
-                            <h4>What new?</h4>
+                            <h4>First Job & Eng. Degree</h4>
                             <p>Lorem Ipsum  Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                         </TabPanel>
                         <TabPanel className="experience-box-content-panel">
                             <h5>2020</h5>
-                            <h4>What new?</h4>
+                            <h4>University</h4>
                             <p>Lorem. Lorem Ipsum has been the industry's standard dummy texIpsum is simply dummy text of the printing and typesetting industry took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
                         </TabPanel>
                     </div>

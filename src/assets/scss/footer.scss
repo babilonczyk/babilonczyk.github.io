@@ -22,7 +22,7 @@
             line-height: 100px;
             width: 15px;
             display: block;
-            margin:  43px auto 0 auto;
+            margin:  44px auto 0 auto;
             text-align: center;
 
             &:first-of-type{
@@ -32,8 +32,14 @@
 
         img{
             display: block;
-            margin:  47px auto 0 auto;
+            margin:  44px auto 0 auto;
             width: 15px;
+        }
+
+        a{
+            img{
+                margin:  46px auto 0 auto;
+            }
         }
 
     }

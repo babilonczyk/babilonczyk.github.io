@@ -23,7 +23,10 @@
     max-width: 1000px;
     height: 550px;
     margin: 10px auto 0 auto;
+    -webkit-border-radius: 7px 7px 200px 7px;
+    -moz-border-radius: 7px 7px 200px 7px;
     border-radius: 7px 7px 200px 7px;
+    -khtml-border-radius: 7px 7px 200px 7px;
     display: grid;
     grid-template-columns: 220px 1fr;
     outline: 2px solid #28b98198;
@@ -75,7 +78,10 @@
           margin-top: 10px;
           width: 4px;
           height: 4px;
+          -webkit-border-radius: 100px;
+          -moz-border-radius: 100px;
           border-radius: 100px;
+          -khtml-border-radius: 100px;
           border: 3px solid #101412;
           outline: 3px solid #28b981; }
         .experience .experience-box .experience-box-nav .experience-btn h5 {
@@ -93,7 +99,10 @@
       position: relative; }
       .experience .experience-box .experience-box-content .experience-box-content-box {
         display: block;
+        -webkit-border-radius: 200px 7px 200px 7px;
+        -moz-border-radius: 200px 7px 200px 7px;
         border-radius: 200px 7px 200px 7px;
+        -khtml-border-radius: 200px 7px 200px 7px;
         background: black;
         box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
         width: calc(100% + 30px);
@@ -130,7 +139,7 @@
           color: #fff; }
           @media only screen and (max-width: 780px) {
             .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
-              padding: 40px 0 0 40px; } }
+              padding: 40px 10px 0 40px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
           margin: 0;
           padding: 30px 40px 40px 120px;
@@ -140,14 +149,17 @@
           color: #8a9097; }
           @media only screen and (max-width: 780px) {
             .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
-              padding: 30px 40px 40px 40px; } }
+              padding: 30px 50px 40px 40px; } }
       .experience .experience-box .experience-box-content .gn-ball-r {
         position: absolute;
         right: -25px;
         bottom: -25px;
         height: 150px;
         width: 150px;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
         border-radius: 100%;
+        -khtml-border-radius: 100%;
         background: #28b981;
         opacity: 0.8;
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;

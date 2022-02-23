@@ -30,13 +30,17 @@
         grid-template-rows: 100px 100px 100px;
         row-gap: 25px; }
         .services .services-wrapper .services-left .services-btns .services-btn {
+          -webkit-border-radius: 17px;
+          -moz-border-radius: 17px;
           border-radius: 17px;
+          -khtml-border-radius: 17px;
           height: 100px;
           width: 300px;
           background-color: #1d1f1fb0;
           border: 10px solid black;
           outline: 2px solid transparent;
-          cursor: pointer; }
+          cursor: pointer;
+          border-collapse: separate; }
           @media only screen and (max-width: 780px) {
             .services .services-wrapper .services-left .services-btns .services-btn {
               width: calc(100% - 60px); } }

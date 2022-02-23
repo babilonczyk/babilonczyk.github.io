@@ -566,13 +566,17 @@ body {
           grid-template-rows: 100px 100px 100px;
           row-gap: 25px; }
           body .App .services .services-wrapper .services-left .services-btns .services-btn {
+            -webkit-border-radius: 17px;
+            -moz-border-radius: 17px;
             border-radius: 17px;
+            -khtml-border-radius: 17px;
             height: 100px;
             width: 300px;
             background-color: #1d1f1fb0;
             border: 10px solid black;
             outline: 2px solid transparent;
-            cursor: pointer; }
+            cursor: pointer;
+            border-collapse: separate; }
             @media only screen and (max-width: 780px) {
               body .App .services .services-wrapper .services-left .services-btns .services-btn {
                 width: calc(100% - 60px); } }
@@ -651,7 +655,10 @@ body {
       max-width: 1000px;
       height: 550px;
       margin: 10px auto 0 auto;
+      -webkit-border-radius: 7px 7px 200px 7px;
+      -moz-border-radius: 7px 7px 200px 7px;
       border-radius: 7px 7px 200px 7px;
+      -khtml-border-radius: 7px 7px 200px 7px;
       display: grid;
       grid-template-columns: 220px 1fr;
       outline: 2px solid #28b98198;
@@ -703,7 +710,10 @@ body {
             margin-top: 10px;
             width: 4px;
             height: 4px;
+            -webkit-border-radius: 100px;
+            -moz-border-radius: 100px;
             border-radius: 100px;
+            -khtml-border-radius: 100px;
             border: 3px solid #101412;
             outline: 3px solid #28b981; }
           body .App .experience .experience-box .experience-box-nav .experience-btn h5 {
@@ -721,7 +731,10 @@ body {
         position: relative; }
         body .App .experience .experience-box .experience-box-content .experience-box-content-box {
           display: block;
+          -webkit-border-radius: 200px 7px 200px 7px;
+          -moz-border-radius: 200px 7px 200px 7px;
           border-radius: 200px 7px 200px 7px;
+          -khtml-border-radius: 200px 7px 200px 7px;
           background: black;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
           width: calc(100% + 30px);
@@ -758,7 +771,7 @@ body {
             color: #fff; }
             @media only screen and (max-width: 780px) {
               body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
-                padding: 40px 0 0 40px; } }
+                padding: 40px 10px 0 40px; } }
           body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
             margin: 0;
             padding: 30px 40px 40px 120px;
@@ -768,14 +781,17 @@ body {
             color: #8a9097; }
             @media only screen and (max-width: 780px) {
               body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
-                padding: 30px 40px 40px 40px; } }
+                padding: 30px 50px 40px 40px; } }
         body .App .experience .experience-box .experience-box-content .gn-ball-r {
           position: absolute;
           right: -25px;
           bottom: -25px;
           height: 150px;
           width: 150px;
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
           border-radius: 100%;
+          -khtml-border-radius: 100%;
           background: #28b981;
           opacity: 0.8;
           box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
@@ -815,11 +831,13 @@ body {
         line-height: 100px;
         width: 15px;
         display: block;
-        margin: 43px auto 0 auto;
+        margin: 44px auto 0 auto;
         text-align: center; }
         body .App .footer .footer-wrapper svg:first-of-type {
           color: #db4343; }
       body .App .footer .footer-wrapper img {
         display: block;
-        margin: 47px auto 0 auto;
+        margin: 44px auto 0 auto;
         width: 15px; }
+      body .App .footer .footer-wrapper a img {
+        margin: 46px auto 0 auto; }
