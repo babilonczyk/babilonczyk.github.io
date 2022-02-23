@@ -37,7 +37,6 @@ const Experience: React.FC  = () => {
                               Right now, my eyes are set on gaining experience in web3 and blockchain 
                               as well as improving my existing skills in Typescript / ExpressJS and several other technologies.
                               <br /><br />
-
                             </p>
                         </TabPanel>
                         <TabPanel className="experience-box-content-panel">

@@ -2,7 +2,7 @@
 
 .experience{
     padding: 10px 30px 15px 30px;
-    min-height: 770px;
+    min-height: 830px;
     width: calc(100% - 60px);
     background:  linear-gradient(to bottom, transprent, black);
 
@@ -51,7 +51,7 @@
             
             @media only screen and (max-width: 780px) {
                 display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: auto auto auto 1fr;
                 padding: 0 30px;
                 width: calc( 100% - 60px);
                 grid-template-rows: 1fr;
@@ -202,15 +202,14 @@
                         word-spacing: 3px;
                         line-height: 36px;
                         color: $paper-gray; 
-                        width: calc(100% - 165px);
                          
                         span{
-                            display: block;
+                            display: block; 
                             margin: 13px 0;
                         }
 
                         @media only screen and (max-width: 780px) {
-                            padding: 30px 55px 40px 40px;
+                            padding: 30px 55px 70px 40px;
                          }
                     }
                 }

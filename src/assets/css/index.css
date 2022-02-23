@@ -632,7 +632,7 @@ body {
               line-height: 36px; }
   body .App .experience {
     padding: 10px 30px 15px 30px;
-    min-height: 770px;
+    min-height: 830px;
     width: calc(100% - 60px);
     background: linear-gradient(to bottom, transprent, black); }
     @media only screen and (max-width: 480px) {
@@ -673,7 +673,7 @@ body {
         @media only screen and (max-width: 780px) {
           body .App .experience .experience-box .experience-box-nav {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: auto auto auto 1fr;
             padding: 0 30px;
             width: calc( 100% - 60px);
             grid-template-rows: 1fr;
@@ -780,14 +780,13 @@ body {
             font-size: 16px;
             word-spacing: 3px;
             line-height: 36px;
-            color: #8a9097;
-            width: calc(100% - 165px); }
+            color: #8a9097; }
             body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p span {
               display: block;
               margin: 13px 0; }
             @media only screen and (max-width: 780px) {
               body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
-                padding: 30px 55px 40px 40px; } }
+                padding: 30px 55px 70px 40px; } }
         body .App .experience .experience-box .experience-box-content .gn-ball-r {
           position: absolute;
           right: -25px;
