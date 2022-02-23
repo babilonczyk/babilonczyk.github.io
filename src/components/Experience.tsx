@@ -55,7 +55,7 @@ const Experience: React.FC  = () => {
                             </p>
                         </TabPanel>
                         <TabPanel className="experience-box-content-panel">
-                            <h5>2019 - 2020</h5>
+                            <h5>2020</h5>
                             <h4>University Time</h4>
                             <p>
                                 2019-2020 were the years when I've started getting interested in web technologies. Especially Ruby 
