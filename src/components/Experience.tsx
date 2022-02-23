@@ -24,7 +24,7 @@ const Experience: React.FC  = () => {
                     </Tab>
                     <Tab className="experience-btn">
                         <div className="experience-btn-state"></div>
-                        <h5>2019-2020</h5>
+                        <h5>2020</h5>
                     </Tab>
                 </TabList>
 
