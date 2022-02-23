@@ -116,7 +116,7 @@
           .experience .experience-box .experience-box-content .experience-box-content-box {
             top: 0;
             min-height: 530px;
-            border-radius: 7px 7px 200px 7px; } }
+            border-radius: 7px 7px 70px 7px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
           position: absolute;
           top: -45px;
@@ -131,7 +131,7 @@
               display: none; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
           margin: 0;
-          padding: 60px 0 0 120px;
+          padding: 65px 0 0 110px;
           text-align: left;
           font-size: 20px;
           word-spacing: 3px;
@@ -142,15 +142,19 @@
               padding: 40px 10px 0 40px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
           margin: 0;
-          padding: 30px 40px 40px 120px;
+          padding: 30px 55px 40px 110px;
           font-size: 16px;
           word-spacing: 3px;
           line-height: 36px;
           color: #8a9097; }
+          .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p span {
+            display: block;
+            margin: 13px 0; }
           @media only screen and (max-width: 780px) {
             .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
-              padding: 30px 50px 40px 40px; } }
+              padding: 30px 55px 40px 40px; } }
       .experience .experience-box .experience-box-content .gn-ball-r {
+        display: none;
         position: absolute;
         right: -25px;
         bottom: -25px;

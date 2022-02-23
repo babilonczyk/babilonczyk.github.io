@@ -24,7 +24,7 @@ const Experience: React.FC  = () => {
                     </Tab>
                     <Tab className="experience-btn">
                         <div className="experience-btn-state"></div>
-                        <h5>2020</h5>
+                        <h5>2019-2020</h5>
                     </Tab>
                 </TabList>
 
@@ -32,18 +32,39 @@ const Experience: React.FC  = () => {
                     <div className="experience-box-content-box">
                         <TabPanel className="experience-box-content-panel">
                             <h5>2022</h5>
-                            <h4>Now</h4>
-                            <p>Lorem Ipsum is simply dummy text of the. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <h4>What now?</h4>
+                            <p>
+                              Right now, my eyes are set on gaining experience in web3 and blockchain 
+                              as well as improving my existing skills in Typescript/ExpressJS and several other technologies.
+                              <br /><br />
+
+                            </p>
                         </TabPanel>
                         <TabPanel className="experience-box-content-panel">
                             <h5>2021</h5>
                             <h4>First Job & Eng. Degree</h4>
-                            <p>Lorem Ipsum  Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <p>
+                                At the begining of the 2021 I got the opportuninty to start working on the inteligent legal aid system 
+                                for a project called Lemkin. I've been responsible for implementing new functionalities using ruby in Hanami 
+                                framework.
+                                <span></span>
+                                It was also a time, when I started getting interested in crypto and blockchain technologies. I've decided to start learning new
+                                technological stack (Typescript/React/NodeJS/ExpressJS).
+                                <span></span>
+                                I've also finished my bachelor's degree at the end of that year.
+                            </p>
                         </TabPanel>
                         <TabPanel className="experience-box-content-panel">
-                            <h5>2020</h5>
-                            <h4>University</h4>
-                            <p>Lorem. Lorem Ipsum has been the industry's standard dummy texIpsum is simply dummy text of the printing and typesetting industry took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                            <h5>2019 - 2020</h5>
+                            <h4>University Time</h4>
+                            <p>
+                                2019-2020 were the years when I've started getting interested in web technologies. Especially Ruby 
+                                and Ruby on Rails.
+                                <span></span>
+                                I've spend that time working as a Sushi Master (thats right :P), studing, getting bunch of 
+                                certification courses like Scrum Master Certified, Prince2 Fundamentals or AgilePM Fundamentals and
+                                learning Ruby/Ruby on Rails on my own. 
+                            </p>
                         </TabPanel>
                     </div>
 

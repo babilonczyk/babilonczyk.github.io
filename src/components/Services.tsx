@@ -33,7 +33,8 @@ const Services: React.FC  = () => {
                             <h4>Front-end</h4>
                             <p>Websites that attract and maintain the attention of a viewer are the result
                                I want to accomplish every time I start working on a new project. I'm using 
-                                <strong> CSS/SCSS</strong>, <strong>Javascript/Typescript</strong> to make that magic!
+                                <strong> CSS/SCSS</strong>, <strong>Javascript/Typescript</strong> with <strong>React </strong>
+                                 to make that magic happen.
                             </p>
                         </TabPanel>
                         <TabPanel className="services-content-panel">
