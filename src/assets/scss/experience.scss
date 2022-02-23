@@ -31,7 +31,10 @@
         max-width: 1000px;
         height: 550px;
         margin: 10px auto 0 auto;
+        -webkit-border-radius: 7px 7px 200px 7px;
+        -moz-border-radius: 7px 7px 200px 7px;
         border-radius: 7px 7px 200px 7px;
+        -khtml-border-radius: 7px 7px 200px 7px;
         display: grid;
         grid-template-columns: 220px 1fr;
         outline: 2px solid $neon-light-green;
@@ -107,7 +110,10 @@
                     margin-top: 10px;
                     width: 4px;
                     height: 4px;
+                    -webkit-border-radius: 100px;
+                    -moz-border-radius: 100px;
                     border-radius: 100px;
+                    -khtml-border-radius: 100px;
                     border: 3px solid $light-black;
                     outline: 3px solid $neon-green;
                 }
@@ -134,7 +140,11 @@
 
             .experience-box-content-box{
                 display: block;
+                -webkit-border-radius: 200px 7px 200px 7px;
+                -moz-border-radius: 200px 7px 200px 7px;
                 border-radius: 200px 7px 200px 7px;
+                -khtml-border-radius: 200px 7px 200px 7px;
+
                 background: black;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;                width: calc(100% + 30px);
                 height: calc(100% - 30px);
@@ -205,7 +215,10 @@
                 bottom: -25px;
                 height: 150px; 
                 width: 150px; 
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
                 border-radius: 100%;
+                -khtml-border-radius: 100%;
                 background: $neon-green;
                 opacity: 0.8;
                 box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px;
