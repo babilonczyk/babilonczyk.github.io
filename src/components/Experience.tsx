@@ -48,7 +48,7 @@ const Experience: React.FC  = () => {
                                 framework.
                                 <span></span>
                                 It was also a time, when I started getting interested in crypto and blockchain technologies. I've decided to start learning new
-                                technological stack (Typescript/React/NodeJS/ExpressJS).
+                                technological stack (Typescript / React / NodeJS / ExpressJS).
                                 <span></span>
                                 I've also finished my bachelor's degree at the end of that year.
                             </p>
