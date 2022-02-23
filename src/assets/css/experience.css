@@ -1,6 +1,6 @@
 .experience {
-  padding: 10px 20px 15px 20px;
-  min-height: 750px;
+  padding: 10px 30px 15px 30px;
+  min-height: 770px;
   width: calc(100% - 60px);
   background: linear-gradient(to bottom, transprent, black); }
   @media only screen and (max-width: 480px) {
@@ -18,7 +18,8 @@
     text-align: left; }
     @media only screen and (max-width: 480px) {
       .experience h2 {
-        padding-left: 40px; } }
+        padding-left: 40px;
+        width: calc(100% - 80px); } }
   .experience .experience-box {
     max-width: 1000px;
     height: 550px;
@@ -104,7 +105,7 @@
         border-radius: 200px 7px 200px 7px;
         -khtml-border-radius: 200px 7px 200px 7px;
         background: black;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
+        box-shadow: #00000059 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px;
         width: calc(100% + 30px);
         height: calc(100% - 30px);
         position: absolute;
@@ -114,9 +115,10 @@
         position: relative; }
         @media only screen and (max-width: 780px) {
           .experience .experience-box .experience-box-content .experience-box-content-box {
+            width: 100%;
             top: 0;
             min-height: 530px;
-            border-radius: 7px 7px 70px 7px; } }
+            border-radius: 7px 7px 7px 7px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
           position: absolute;
           top: -45px;
@@ -131,7 +133,7 @@
               display: none; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
           margin: 0;
-          padding: 65px 0 0 110px;
+          padding: 65px 0 0 105px;
           text-align: left;
           font-size: 20px;
           word-spacing: 3px;
@@ -142,7 +144,7 @@
               padding: 40px 10px 0 40px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
           margin: 0;
-          padding: 30px 55px 40px 110px;
+          padding: 30px 60px 80px 105px;
           font-size: 16px;
           word-spacing: 3px;
           line-height: 36px;
@@ -154,7 +156,6 @@
             .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
               padding: 30px 55px 40px 40px; } }
       .experience .experience-box .experience-box-content .gn-ball-r {
-        display: none;
         position: absolute;
         right: -25px;
         bottom: -25px;
@@ -170,10 +171,9 @@
         border: 15px solid #101412;
         outline: 4px solid #28b981;
         z-index: 1; }
-        @media only screen and (max-width: 480px) {
+        @media only screen and (max-width: 780px) {
           .experience .experience-box .experience-box-content .gn-ball-r {
-            right: -15px;
-            bottom: -15px; } }
+            display: none; } }
       .experience .experience-box .experience-box-content .curve {
         display: block;
         position: absolute;

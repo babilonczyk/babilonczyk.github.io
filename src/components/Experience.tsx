@@ -35,7 +35,7 @@ const Experience: React.FC  = () => {
                             <h4>What now?</h4>
                             <p>
                               Right now, my eyes are set on gaining experience in web3 and blockchain 
-                              as well as improving my existing skills in Typescript/ExpressJS and several other technologies.
+                              as well as improving my existing skills in Typescript / ExpressJS and several other technologies.
                               <br /><br />
 
                             </p>
