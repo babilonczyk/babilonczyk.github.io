@@ -4,8 +4,9 @@
     padding: 10px 20px 15px 20px;
     min-height: 750px;
     width: calc(100% - 60px);
+    background:  linear-gradient(to bottom, transprent, black);
 
-    h2{
+    h2{ 
         display: block;
         max-width: 1000px;
         height: 130px;
@@ -26,14 +27,32 @@
         outline: 2px solid $neon-light-green;
         background:  linear-gradient(to right, $black, black);
 
+        @media only screen and (max-width: 780px) {
+            grid-template-rows: auto auto;
+            grid-template-columns: 1fr;
+        }
+
         .experience-box-nav{
             list-style: none;
+            
+            @media only screen and (max-width: 780px) {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                padding: 0 30px;
+                width: calc( 100% - 60px);
+                grid-template-rows: 1fr;
+                column-gap: 30px;
+            }
 
             h4{
                 color: $lightest-gray;
                 margin-top: 80px;
                 margin-bottom: 50px;
                 font-size: 17px;
+
+                @media only screen and (max-width: 780px) {
+                    display: none;
+                }
             }
 
             .experience-btn{
@@ -42,6 +61,10 @@
                 grid-template-columns: 10px auto;
                 column-gap: 25px;
                 cursor: pointer;
+
+                @media only screen and (max-width: 780px) {
+                    margin: 15px 0;
+                }
 
                 &:hover{
                     h5{
@@ -102,6 +125,13 @@
                 outline: 2px solid $neon-light-green;
                 position: relative;
 
+                @media only screen and (max-width: 780px) {
+                    top: 0;  
+                    min-height: 500px;     
+                    border-radius: 7px 7px 200px 7px;
+
+                }
+
                 .experience-box-content-panel{
 
                     h5{
@@ -113,6 +143,10 @@
                         color: $lightest-gray;
                         font-size: 17px;
                         font-weight: 600;
+
+                        @media only screen and (max-width: 780px) {
+                            display: none;
+                        }
                     }
 
 
@@ -124,6 +158,11 @@
                         word-spacing: 3px;
                         line-height: 36px;
                         color: #fff;
+                        
+
+                        @media only screen and (max-width: 780px) {
+                           padding: 60px 0 0 40px;
+                        }
                     }
 
                     p{
@@ -133,6 +172,10 @@
                         word-spacing: 3px;
                         line-height: 36px;
                         color: $paper-gray;
+
+                        @media only screen and (max-width: 780px) {
+                            padding: 30px 40px 40px 40px;
+                         }
                     }
                 }
             }
@@ -160,6 +203,10 @@
                 z-index: 1;
                 width: 590px;
                 opacity: 0.6;
+
+                @media only screen and (max-width: 780px) {
+                    display: none;
+                }
             }
         }
     }

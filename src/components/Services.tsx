@@ -1,24 +1,28 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
  
 const Services: React.FC  = () => {
   
     return (
-        <section className="services">
+        <section className="services" id="services">
             <Tabs className="services-wrapper">
                 <div className="services-left">
                     <h2>Services</h2>
+
                     <TabList className="services-btns">
                         <Tab className="services-btn">
                             <h4>Front-end</h4>
-                            <span>Making beautiful front-ends</span>
+                            <span>Making beautiful front-ends</span>  
                         </Tab>
+    
                         <Tab className="services-btn">
                             <h4>Back-end</h4>
                             <span>Building powerful back-ends</span>
                         </Tab>
+    
                         <Tab className="services-btn">
                             <h4>Blockchain</h4>  
-                            <span>Coming Soon</span>
+                            <span>Coming Soon</span> 
                         </Tab>
                     </TabList>
                 </div>

@@ -1,7 +1,8 @@
 .experience {
   padding: 10px 20px 15px 20px;
   min-height: 750px;
-  width: calc(100% - 60px); }
+  width: calc(100% - 60px);
+  background: linear-gradient(to bottom, transprent, black); }
   .experience h2 {
     display: block;
     max-width: 1000px;
@@ -20,19 +21,37 @@
     grid-template-columns: 220px 1fr;
     outline: 2px solid #28b98198;
     background: linear-gradient(to right, #0e1110, black); }
+    @media only screen and (max-width: 780px) {
+      .experience .experience-box {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr; } }
     .experience .experience-box .experience-box-nav {
       list-style: none; }
+      @media only screen and (max-width: 780px) {
+        .experience .experience-box .experience-box-nav {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 0 30px;
+          width: calc( 100% - 60px);
+          grid-template-rows: 1fr;
+          column-gap: 30px; } }
       .experience .experience-box .experience-box-nav h4 {
         color: #b5bac0f1;
         margin-top: 80px;
         margin-bottom: 50px;
         font-size: 17px; }
+        @media only screen and (max-width: 780px) {
+          .experience .experience-box .experience-box-nav h4 {
+            display: none; } }
       .experience .experience-box .experience-box-nav .experience-btn {
         margin: 30px 0;
         display: grid;
         grid-template-columns: 10px auto;
         column-gap: 25px;
         cursor: pointer; }
+        @media only screen and (max-width: 780px) {
+          .experience .experience-box .experience-box-nav .experience-btn {
+            margin: 15px 0; } }
         .experience .experience-box .experience-box-nav .experience-btn:hover h5 {
           color: #b5bac0f1; }
         .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected:hover {
@@ -70,6 +89,11 @@
         z-index: 2;
         outline: 2px solid #28b98198;
         position: relative; }
+        @media only screen and (max-width: 780px) {
+          .experience .experience-box .experience-box-content .experience-box-content-box {
+            top: 0;
+            min-height: 500px;
+            border-radius: 7px 7px 200px 7px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
           position: absolute;
           top: -45px;
@@ -79,6 +103,9 @@
           color: #b5bac0f1;
           font-size: 17px;
           font-weight: 600; }
+          @media only screen and (max-width: 780px) {
+            .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
+              display: none; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
           margin: 0;
           padding: 60px 0 0 120px;
@@ -87,6 +114,9 @@
           word-spacing: 3px;
           line-height: 36px;
           color: #fff; }
+          @media only screen and (max-width: 780px) {
+            .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
+              padding: 60px 0 0 40px; } }
         .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
           margin: 0;
           padding: 30px 40px 40px 120px;
@@ -94,6 +124,9 @@
           word-spacing: 3px;
           line-height: 36px;
           color: #8a9097; }
+          @media only screen and (max-width: 780px) {
+            .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
+              padding: 30px 40px 40px 40px; } }
       .experience .experience-box .experience-box-content .gn-ball-r {
         position: absolute;
         right: -25px;
@@ -115,3 +148,6 @@
         z-index: 1;
         width: 590px;
         opacity: 0.6; }
+        @media only screen and (max-width: 780px) {
+          .experience .experience-box .experience-box-content .curve {
+            display: none; } }

@@ -16,11 +16,12 @@ const Navbar: React.FC  = () => {
 
       <div className="nav-btns">
         <a className="nav-btn--active" href="#about-me"><span>About_Me</span></a>
-        <a href="/"><span>Services</span></a>
-        <a href="/"><span>Experience</span></a>
+        <a href="#services"><span>Services</span></a> 
+        <a href="#experience"><span>Experience</span></a>
+        <a href="https://babilonczyk-blog.herokuapp.com/" target="_blank" rel="noreferrer"><span>Blog</span></a>
       </div>
     </nav>
-  );
+  ); 
 };
 
 export default Navbar;

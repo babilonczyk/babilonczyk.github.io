@@ -5,7 +5,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 const Experience: React.FC  = () => {
   
     return (
-        <Tabs className="experience">
+        <Tabs className="experience" id="experience">
 
             <h2>My Experience</h2>
 

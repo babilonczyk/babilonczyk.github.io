@@ -1,12 +1,12 @@
 .navbar {
-  max-width: 1170px;
-  width: calc(100% - 40px);
+  max-width: 1130px;
+  width: calc(100% - 80px);
   margin: 0 auto;
   height: 50px;
   display: grid;
   grid-template-columns: auto 1fr auto;
   grid-template-rows: 50px;
-  padding: 35px 25px 0 15px; }
+  padding: 35px 50px 0 30px; }
   .navbar .nav-title {
     display: block;
     text-decoration: none;
@@ -31,8 +31,12 @@
         color: #b5bac0; }
   .navbar .nav-btns {
     display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 35px; }
+    grid-template-columns: auto auto auto auto;
+    column-gap: 35px;
+    margin-top: 7px; }
+    @media only screen and (max-width: 700px) {
+      .navbar .nav-btns {
+        grid-template-columns: auto; } }
     .navbar .nav-btns a {
       line-height: 50px;
       display: block;
@@ -42,21 +46,41 @@
       font-size: 14px; }
       .navbar .nav-btns a:hover {
         color: #28b981; }
+      @media only screen and (max-width: 700px) {
+        .navbar .nav-btns a:nth-of-type(1) {
+          display: none; } }
       .navbar .nav-btns a:nth-of-type(1).nav-btn--active {
         color: #28b981; }
         .navbar .nav-btns a:nth-of-type(1).nav-btn--active span {
           display: none; }
         .navbar .nav-btns a:nth-of-type(1).nav-btn--active::after {
           content: '< About_Me />'; }
+      @media only screen and (max-width: 700px) {
+        .navbar .nav-btns a:nth-of-type(2) {
+          display: none; } }
       .navbar .nav-btns a:nth-of-type(2).nav-btn--active {
         color: #28b981; }
         .navbar .nav-btns a:nth-of-type(2).nav-btn--active span {
           display: none; }
         .navbar .nav-btns a:nth-of-type(2).nav-btn--active::after {
           content: '< Services />'; }
+      @media only screen and (max-width: 700px) {
+        .navbar .nav-btns a:nth-of-type(3) {
+          display: none; } }
       .navbar .nav-btns a:nth-of-type(3).nav-btn--active {
         color: #28b981; }
         .navbar .nav-btns a:nth-of-type(3).nav-btn--active span {
           display: none; }
         .navbar .nav-btns a:nth-of-type(3).nav-btn--active::after {
+          content: '< Projects />'; }
+      @media only screen and (max-width: 700px) {
+        .navbar .nav-btns a:nth-of-type(4) {
+          font-size: 16px; } }
+      .navbar .nav-btns a:nth-of-type(4).nav-btn--active {
+        color: #28b981; }
+        .navbar .nav-btns a:nth-of-type(4).nav-btn--active span {
+          display: none; }
+          .navbar .nav-btns a:nth-of-type(4).nav-btn--active span strong {
+            font-weight: 900; }
+        .navbar .nav-btns a:nth-of-type(4).nav-btn--active::after {
           content: '< Projects />'; }

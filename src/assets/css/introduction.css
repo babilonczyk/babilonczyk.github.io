@@ -2,18 +2,23 @@
   height: 600px;
   display: grid;
   grid-template-columns: 1fr auto;
-  max-width: 1100px;
-  width: calc(100% - 400px);
+  max-width: 1130px;
+  width: calc(100% - 60px);
   margin: 0 auto;
-  position: relative; }
-  @media only screen and (max-width: 1350px) {
+  position: relative;
+  padding: 0 30px; }
+  @media only screen and (max-width: 1050px) {
     .introduction {
       grid-template-columns: 1fr;
-      width: calc(100% - 40px); } }
+      width: calc(100% - 60px); } }
   .introduction .introduction-left {
     padding-top: 80px;
     display: grid;
     grid-template-rows: 40px 60px 60px auto 1fr auto; }
+    @media only screen and (max-width: 1050px) {
+      .introduction .introduction-left {
+        margin: 0 auto;
+        max-width: 1000px; } }
     .introduction .introduction-left .tag {
       display: block;
       width: 148px;
@@ -38,6 +43,9 @@
       word-spacing: 3px;
       line-height: 36px;
       color: #b5bac0; }
+      @media only screen and (max-width: 1050px) {
+        .introduction .introduction-left p {
+          max-width: 800px; } }
     .introduction .introduction-left a {
       padding: 30px 0 0 0;
       text-decoration: underline;
@@ -91,8 +99,19 @@
         color: #fff; }
   .introduction .introduction-right {
     position: relative;
-    transform: scale(0.8); }
+    transform: scale(0.8);
+    width: 100%; }
     @media only screen and (max-width: 1350px) {
+      .introduction .introduction-right {
+        transform: scale(0.7);
+        margin-right: 200px; } }
+    @media only screen and (max-width: 1250px) {
+      .introduction .introduction-right {
+        margin-right: 400px; } }
+    @media only screen and (max-width: 1150px) {
+      .introduction .introduction-right {
+        margin-right: 500px; } }
+    @media only screen and (max-width: 1050px) {
       .introduction .introduction-right {
         display: none; } }
     .introduction .introduction-right .rocket {
@@ -100,7 +119,7 @@
       z-index: -1;
       transform: rotate(60deg);
       position: absolute;
-      right: 175px;
+      right: 205px;
       top: 95px;
       width: 180px; }
     .introduction .introduction-right .arrow {
@@ -108,14 +127,14 @@
       z-index: -1;
       transform: rotate(0deg);
       position: absolute;
-      right: -250px;
+      right: -220px;
       bottom: -100px;
       width: 800px;
       height: 450px; }
     .introduction .introduction-right .circle-large {
       z-index: -2;
       position: absolute;
-      right: -140px;
+      right: -110px;
       bottom: -35px;
       width: 600px;
       height: 600px;
@@ -124,7 +143,7 @@
       box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
     .introduction .introduction-right .circle-small-gn-c {
       position: absolute;
-      right: 230px;
+      right: 260px;
       top: 415px;
       width: 6px;
       height: 6px;
@@ -133,7 +152,7 @@
       box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
     .introduction .introduction-right .circle-small-gn-cc {
       position: absolute;
-      right: 30px;
+      right: 60px;
       top: 275px;
       width: 7px;
       height: 7px;
@@ -144,7 +163,7 @@
       outline: 1px solid #28b981; }
     .introduction .introduction-right .circle-small-gn-t {
       position: absolute;
-      right: -80px;
+      right: -50px;
       top: 80px;
       width: 2px;
       height: 2px;
@@ -153,7 +172,7 @@
       box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
     .introduction .introduction-right .circle-small-gn-tt {
       position: absolute;
-      right: -65px;
+      right: -35px;
       top: 60px;
       width: 5px;
       height: 5px;
@@ -165,7 +184,7 @@
       outline: 1px solid #28b981; }
     .introduction .introduction-right .circle-small-gn-ttt {
       position: absolute;
-      right: -40px;
+      right: -10px;
       top: 75px;
       width: 3px;
       height: 3px;
@@ -174,7 +193,7 @@
       box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
     .introduction .introduction-right .circle-small-gn-b {
       position: absolute;
-      right: 495px;
+      right: 525px;
       top: 445px;
       width: 2px;
       height: 2px;
@@ -183,7 +202,7 @@
       box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
     .introduction .introduction-right .circle-small-gn-bb {
       position: absolute;
-      right: 475px;
+      right: 505px;
       top: 425px;
       width: 3px;
       height: 3px;
@@ -192,7 +211,7 @@
       box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
     .introduction .introduction-right .circle-small-gn-bbb {
       position: absolute;
-      right: 425px;
+      right: 455px;
       top: 475px;
       width: 4px;
       height: 4px;
@@ -203,7 +222,7 @@
       outline: 1px solid #28b981; }
     .introduction .introduction-right .circle-small-bk {
       position: absolute;
-      right: 470px;
+      right: 500px;
       top: 460px;
       width: 50px;
       height: 50px;
@@ -219,7 +238,7 @@
         font-size: 15px; }
     .introduction .introduction-right .circle-mail {
       position: absolute;
-      right: 270px;
+      right: 300px;
       top: 400px;
       width: 120px;
       height: 120px;
@@ -239,7 +258,7 @@
     .introduction .introduction-right .circle-linkedin {
       position: absolute;
       right: 50px;
-      top: 290px;
+      top: 320px;
       width: 150px;
       height: 150px;
       border-radius: 100%;
@@ -257,7 +276,7 @@
           color: #177ffd; }
     .introduction .introduction-right .circle-github {
       position: absolute;
-      right: -170px;
+      right: -140px;
       top: 90px;
       width: 190px;
       height: 190px;

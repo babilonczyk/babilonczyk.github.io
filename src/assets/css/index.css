@@ -5,16 +5,17 @@ body {
   font-family: 'Lato', sans-serif;
   background: #1d1f1f;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  overflow-x: hidden; }
   body .App .navbar {
-    max-width: 1170px;
-    width: calc(100% - 40px);
+    max-width: 1130px;
+    width: calc(100% - 80px);
     margin: 0 auto;
     height: 50px;
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-template-rows: 50px;
-    padding: 35px 25px 0 15px; }
+    padding: 35px 50px 0 30px; }
     body .App .navbar .nav-title {
       display: block;
       text-decoration: none;
@@ -39,8 +40,12 @@ body {
           color: #b5bac0; }
     body .App .navbar .nav-btns {
       display: grid;
-      grid-template-columns: auto auto auto;
-      column-gap: 35px; }
+      grid-template-columns: auto auto auto auto;
+      column-gap: 35px;
+      margin-top: 7px; }
+      @media only screen and (max-width: 700px) {
+        body .App .navbar .nav-btns {
+          grid-template-columns: auto; } }
       body .App .navbar .nav-btns a {
         line-height: 50px;
         display: block;
@@ -50,40 +55,65 @@ body {
         font-size: 14px; }
         body .App .navbar .nav-btns a:hover {
           color: #28b981; }
+        @media only screen and (max-width: 700px) {
+          body .App .navbar .nav-btns a:nth-of-type(1) {
+            display: none; } }
         body .App .navbar .nav-btns a:nth-of-type(1).nav-btn--active {
           color: #28b981; }
           body .App .navbar .nav-btns a:nth-of-type(1).nav-btn--active span {
             display: none; }
           body .App .navbar .nav-btns a:nth-of-type(1).nav-btn--active::after {
             content: '< About_Me />'; }
+        @media only screen and (max-width: 700px) {
+          body .App .navbar .nav-btns a:nth-of-type(2) {
+            display: none; } }
         body .App .navbar .nav-btns a:nth-of-type(2).nav-btn--active {
           color: #28b981; }
           body .App .navbar .nav-btns a:nth-of-type(2).nav-btn--active span {
             display: none; }
           body .App .navbar .nav-btns a:nth-of-type(2).nav-btn--active::after {
             content: '< Services />'; }
+        @media only screen and (max-width: 700px) {
+          body .App .navbar .nav-btns a:nth-of-type(3) {
+            display: none; } }
         body .App .navbar .nav-btns a:nth-of-type(3).nav-btn--active {
           color: #28b981; }
           body .App .navbar .nav-btns a:nth-of-type(3).nav-btn--active span {
             display: none; }
           body .App .navbar .nav-btns a:nth-of-type(3).nav-btn--active::after {
             content: '< Projects />'; }
+        @media only screen and (max-width: 700px) {
+          body .App .navbar .nav-btns a:nth-of-type(4) {
+            font-size: 16px; } }
+        body .App .navbar .nav-btns a:nth-of-type(4).nav-btn--active {
+          color: #28b981; }
+          body .App .navbar .nav-btns a:nth-of-type(4).nav-btn--active span {
+            display: none; }
+            body .App .navbar .nav-btns a:nth-of-type(4).nav-btn--active span strong {
+              font-weight: 900; }
+          body .App .navbar .nav-btns a:nth-of-type(4).nav-btn--active::after {
+            content: '< Projects />'; }
   body .App .introduction {
     height: 600px;
     display: grid;
     grid-template-columns: 1fr auto;
-    max-width: 1100px;
-    width: calc(100% - 400px);
+    max-width: 1130px;
+    width: calc(100% - 60px);
     margin: 0 auto;
-    position: relative; }
-    @media only screen and (max-width: 1350px) {
+    position: relative;
+    padding: 0 30px; }
+    @media only screen and (max-width: 1050px) {
       body .App .introduction {
         grid-template-columns: 1fr;
-        width: calc(100% - 40px); } }
+        width: calc(100% - 60px); } }
     body .App .introduction .introduction-left {
       padding-top: 80px;
       display: grid;
       grid-template-rows: 40px 60px 60px auto 1fr auto; }
+      @media only screen and (max-width: 1050px) {
+        body .App .introduction .introduction-left {
+          margin: 0 auto;
+          max-width: 1000px; } }
       body .App .introduction .introduction-left .tag {
         display: block;
         width: 148px;
@@ -108,6 +138,9 @@ body {
         word-spacing: 3px;
         line-height: 36px;
         color: #b5bac0; }
+        @media only screen and (max-width: 1050px) {
+          body .App .introduction .introduction-left p {
+            max-width: 800px; } }
       body .App .introduction .introduction-left a {
         padding: 30px 0 0 0;
         text-decoration: underline;
@@ -161,8 +194,19 @@ body {
           color: #fff; }
     body .App .introduction .introduction-right {
       position: relative;
-      transform: scale(0.8); }
+      transform: scale(0.8);
+      width: 100%; }
       @media only screen and (max-width: 1350px) {
+        body .App .introduction .introduction-right {
+          transform: scale(0.7);
+          margin-right: 200px; } }
+      @media only screen and (max-width: 1250px) {
+        body .App .introduction .introduction-right {
+          margin-right: 400px; } }
+      @media only screen and (max-width: 1150px) {
+        body .App .introduction .introduction-right {
+          margin-right: 500px; } }
+      @media only screen and (max-width: 1050px) {
         body .App .introduction .introduction-right {
           display: none; } }
       body .App .introduction .introduction-right .rocket {
@@ -170,7 +214,7 @@ body {
         z-index: -1;
         transform: rotate(60deg);
         position: absolute;
-        right: 175px;
+        right: 205px;
         top: 95px;
         width: 180px; }
       body .App .introduction .introduction-right .arrow {
@@ -178,14 +222,14 @@ body {
         z-index: -1;
         transform: rotate(0deg);
         position: absolute;
-        right: -250px;
+        right: -220px;
         bottom: -100px;
         width: 800px;
         height: 450px; }
       body .App .introduction .introduction-right .circle-large {
         z-index: -2;
         position: absolute;
-        right: -140px;
+        right: -110px;
         bottom: -35px;
         width: 600px;
         height: 600px;
@@ -194,7 +238,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 54px 55px, rgba(0, 0, 0, 0.22) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.19) 0px -3px 5px; }
       body .App .introduction .introduction-right .circle-small-gn-c {
         position: absolute;
-        right: 230px;
+        right: 260px;
         top: 415px;
         width: 6px;
         height: 6px;
@@ -203,7 +247,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-cc {
         position: absolute;
-        right: 30px;
+        right: 60px;
         top: 275px;
         width: 7px;
         height: 7px;
@@ -214,7 +258,7 @@ body {
         outline: 1px solid #28b981; }
       body .App .introduction .introduction-right .circle-small-gn-t {
         position: absolute;
-        right: -80px;
+        right: -50px;
         top: 80px;
         width: 2px;
         height: 2px;
@@ -223,7 +267,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-tt {
         position: absolute;
-        right: -65px;
+        right: -35px;
         top: 60px;
         width: 5px;
         height: 5px;
@@ -235,7 +279,7 @@ body {
         outline: 1px solid #28b981; }
       body .App .introduction .introduction-right .circle-small-gn-ttt {
         position: absolute;
-        right: -40px;
+        right: -10px;
         top: 75px;
         width: 3px;
         height: 3px;
@@ -244,7 +288,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-b {
         position: absolute;
-        right: 495px;
+        right: 525px;
         top: 445px;
         width: 2px;
         height: 2px;
@@ -253,7 +297,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-bb {
         position: absolute;
-        right: 475px;
+        right: 505px;
         top: 425px;
         width: 3px;
         height: 3px;
@@ -262,7 +306,7 @@ body {
         box-shadow: rgba(0, 0, 0, 0.56) 0px 0px 70px 4px; }
       body .App .introduction .introduction-right .circle-small-gn-bbb {
         position: absolute;
-        right: 425px;
+        right: 455px;
         top: 475px;
         width: 4px;
         height: 4px;
@@ -273,7 +317,7 @@ body {
         outline: 1px solid #28b981; }
       body .App .introduction .introduction-right .circle-small-bk {
         position: absolute;
-        right: 470px;
+        right: 500px;
         top: 460px;
         width: 50px;
         height: 50px;
@@ -289,7 +333,7 @@ body {
           font-size: 15px; }
       body .App .introduction .introduction-right .circle-mail {
         position: absolute;
-        right: 270px;
+        right: 300px;
         top: 400px;
         width: 120px;
         height: 120px;
@@ -309,7 +353,7 @@ body {
       body .App .introduction .introduction-right .circle-linkedin {
         position: absolute;
         right: 50px;
-        top: 290px;
+        top: 320px;
         width: 150px;
         height: 150px;
         border-radius: 100%;
@@ -327,7 +371,7 @@ body {
             color: #177ffd; }
       body .App .introduction .introduction-right .circle-github {
         position: absolute;
-        right: -170px;
+        right: -140px;
         top: 90px;
         width: 190px;
         height: 190px;
@@ -363,13 +407,22 @@ body {
         margin: 10px auto 0 auto;
         line-height: 35px; }
   body .App .about-me {
-    min-height: 550px;
+    min-height: 540px;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 20px; }
+    @media only screen and (max-width: 1000px) {
+      body .App .about-me {
+        grid-template-columns: 1fr;
+        height: auto;
+        min-height: 300px;
+        padding-bottom: 60px; } }
     body .App .about-me .about-me-left {
       padding-left: 30px; }
+      @media only screen and (max-width: 1000px) {
+        body .App .about-me .about-me-left {
+          display: none; } }
       body .App .about-me .about-me-left .img-wrapper {
         display: block;
         margin: 135px auto 0 auto;
@@ -401,10 +454,14 @@ body {
     body .App .about-me .about-me-right {
       display: grid;
       grid-template-rows: 60px auto auto auto 1fr;
-      padding: 60px 0 0 20px;
+      padding: 75px 0 0 20px;
       row-gap: 20px; }
       body .App .about-me .about-me-right h2 {
         color: #fff; }
+        @media only screen and (max-width: 1000px) {
+          body .App .about-me .about-me-right h2 {
+            max-width: 900px;
+            padding: 0 20px; } }
       body .App .about-me .about-me-right .about-me-paragraph {
         margin: 0;
         padding: 0;
@@ -412,22 +469,32 @@ body {
         max-width: 550px;
         word-spacing: 3px;
         line-height: 36px;
-        color: #8a9097; }
+        color: #8a9097;
+        padding: 0 60px 0 0; }
+        @media only screen and (max-width: 1000px) {
+          body .App .about-me .about-me-right .about-me-paragraph {
+            max-width: 900px;
+            padding: 0 20px; } }
   body .App .teches {
-    padding: 10px 0 15px 0;
+    display: block;
+    padding: 10px 30px 15px 0;
+    height: 100%;
     min-height: 80px;
-    width: 100%; }
+    width: calc(100%-30px);
+    overflow: auto; }
     body .App .teches .teches-wrapper {
-      display: grid;
+      display: block;
       max-width: 1040px;
-      width: 100%;
-      grid-auto-rows: 60px;
-      grid-template-columns: repeat(9, 60px);
-      column-gap: 63px;
-      margin: 0 auto; }
+      width: calc(100% - 30px);
+      height: auto;
+      margin: 0 auto;
+      overflow: auto; }
       body .App .teches .teches-wrapper .tech {
+        float: left;
         display: grid;
-        grid-template-rows: 55px 20px; }
+        grid-template-rows: 55px 20px;
+        width: 60px;
+        margin: 0 27.5px; }
         body .App .teches .teches-wrapper .tech img {
           margin: 17.5px;
           height: 35px;
@@ -439,14 +506,23 @@ body {
           font-weight: 400;
           line-height: 26px; }
   body .App .services {
-    min-height: 590px;
-    background-color: black; }
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    min-height: 590px !important;
+    height: 100% !important;
+    overflow: auto; }
     body .App .services .services-wrapper {
       max-width: 1100px;
-      width: calc(100% - 400px);
+      width: 100%;
       margin: 0 auto;
       display: grid;
-      grid-template-columns: 1fr 1fr; }
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      column-gap: 20px; }
+      @media only screen and (max-width: 780px) {
+        body .App .services .services-wrapper {
+          grid-template-columns: 1fr; } }
       body .App .services .services-wrapper .services-left {
         display: grid;
         grid-template-rows: 60px auto;
@@ -468,6 +544,9 @@ body {
             border: 10px solid black;
             outline: 2px solid transparent;
             cursor: pointer; }
+            @media only screen and (max-width: 780px) {
+              body .App .services .services-wrapper .services-left .services-btns .services-btn {
+                width: calc(100% - 60px); } }
             body .App .services .services-wrapper .services-left .services-btns .services-btn h4 {
               padding: 20px 0 15px 20px;
               font-size: 18px;
@@ -485,10 +564,14 @@ body {
               body .App .services .services-wrapper .services-left .services-btns .services-btn.react-tabs__tab--selected h4 {
                 color: #28b981; }
       body .App .services .services-wrapper .services-right {
-        padding: 153px 0 0 0; }
+        padding: 155px 0 0 0; }
+        @media only screen and (max-width: 780px) {
+          body .App .services .services-wrapper .services-right {
+            display: none; } }
         body .App .services .services-wrapper .services-right .services-content {
-          width: 100%;
-          height: 365px; }
+          width: calc(100% - 30px);
+          height: 370px;
+          padding-right: 30px; }
           body .App .services .services-wrapper .services-right .services-content .services-content-panel {
             display: none;
             position: relative; }
@@ -517,7 +600,8 @@ body {
   body .App .experience {
     padding: 10px 20px 15px 20px;
     min-height: 750px;
-    width: calc(100% - 60px); }
+    width: calc(100% - 60px);
+    background: linear-gradient(to bottom, transprent, black); }
     body .App .experience h2 {
       display: block;
       max-width: 1000px;
@@ -536,19 +620,37 @@ body {
       grid-template-columns: 220px 1fr;
       outline: 2px solid #28b98198;
       background: linear-gradient(to right, #0e1110, black); }
+      @media only screen and (max-width: 780px) {
+        body .App .experience .experience-box {
+          grid-template-rows: auto auto;
+          grid-template-columns: 1fr; } }
       body .App .experience .experience-box .experience-box-nav {
         list-style: none; }
+        @media only screen and (max-width: 780px) {
+          body .App .experience .experience-box .experience-box-nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 0 30px;
+            width: calc( 100% - 60px);
+            grid-template-rows: 1fr;
+            column-gap: 30px; } }
         body .App .experience .experience-box .experience-box-nav h4 {
           color: #b5bac0f1;
           margin-top: 80px;
           margin-bottom: 50px;
           font-size: 17px; }
+          @media only screen and (max-width: 780px) {
+            body .App .experience .experience-box .experience-box-nav h4 {
+              display: none; } }
         body .App .experience .experience-box .experience-box-nav .experience-btn {
           margin: 30px 0;
           display: grid;
           grid-template-columns: 10px auto;
           column-gap: 25px;
           cursor: pointer; }
+          @media only screen and (max-width: 780px) {
+            body .App .experience .experience-box .experience-box-nav .experience-btn {
+              margin: 15px 0; } }
           body .App .experience .experience-box .experience-box-nav .experience-btn:hover h5 {
             color: #b5bac0f1; }
           body .App .experience .experience-box .experience-box-nav .experience-btn.react-tabs__tab--selected:hover {
@@ -586,6 +688,11 @@ body {
           z-index: 2;
           outline: 2px solid #28b98198;
           position: relative; }
+          @media only screen and (max-width: 780px) {
+            body .App .experience .experience-box .experience-box-content .experience-box-content-box {
+              top: 0;
+              min-height: 500px;
+              border-radius: 7px 7px 200px 7px; } }
           body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
             position: absolute;
             top: -45px;
@@ -595,6 +702,9 @@ body {
             color: #b5bac0f1;
             font-size: 17px;
             font-weight: 600; }
+            @media only screen and (max-width: 780px) {
+              body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h5 {
+                display: none; } }
           body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
             margin: 0;
             padding: 60px 0 0 120px;
@@ -603,6 +713,9 @@ body {
             word-spacing: 3px;
             line-height: 36px;
             color: #fff; }
+            @media only screen and (max-width: 780px) {
+              body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
+                padding: 60px 0 0 40px; } }
           body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
             margin: 0;
             padding: 30px 40px 40px 120px;
@@ -610,6 +723,9 @@ body {
             word-spacing: 3px;
             line-height: 36px;
             color: #8a9097; }
+            @media only screen and (max-width: 780px) {
+              body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
+                padding: 30px 40px 40px 40px; } }
         body .App .experience .experience-box .experience-box-content .gn-ball-r {
           position: absolute;
           right: -25px;
@@ -631,6 +747,9 @@ body {
           z-index: 1;
           width: 590px;
           opacity: 0.6; }
+          @media only screen and (max-width: 780px) {
+            body .App .experience .experience-box .experience-box-content .curve {
+              display: none; } }
   body .App .footer {
     height: 100px;
     margin-top: 50px;

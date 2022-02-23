@@ -1,11 +1,20 @@
 .about-me {
-  min-height: 550px;
+  min-height: 540px;
   background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px; }
+  @media only screen and (max-width: 1000px) {
+    .about-me {
+      grid-template-columns: 1fr;
+      height: auto;
+      min-height: 300px;
+      padding-bottom: 60px; } }
   .about-me .about-me-left {
     padding-left: 30px; }
+    @media only screen and (max-width: 1000px) {
+      .about-me .about-me-left {
+        display: none; } }
     .about-me .about-me-left .img-wrapper {
       display: block;
       margin: 135px auto 0 auto;
@@ -37,10 +46,14 @@
   .about-me .about-me-right {
     display: grid;
     grid-template-rows: 60px auto auto auto 1fr;
-    padding: 60px 0 0 20px;
+    padding: 75px 0 0 20px;
     row-gap: 20px; }
     .about-me .about-me-right h2 {
       color: #fff; }
+      @media only screen and (max-width: 1000px) {
+        .about-me .about-me-right h2 {
+          max-width: 900px;
+          padding: 0 20px; } }
     .about-me .about-me-right .about-me-paragraph {
       margin: 0;
       padding: 0;
@@ -48,4 +61,9 @@
       max-width: 550px;
       word-spacing: 3px;
       line-height: 36px;
-      color: #8a9097; }
+      color: #8a9097;
+      padding: 0 60px 0 0; }
+      @media only screen and (max-width: 1000px) {
+        .about-me .about-me-right .about-me-paragraph {
+          max-width: 900px;
+          padding: 0 20px; } }

@@ -18,8 +18,7 @@ const AboutMe: React.FC = () => {
 
                 <p className="about-me-paragraph">
                     I'm a young developer looking for challenging projects that could broaden my 
-                    horizons as well as sharpen my skillset. Energy drinks and coffee gives me power 
-                    to do unachievable things.
+                    horizons as well as sharpen my skillset.
                 </p>
 
                 <p className="about-me-paragraph">

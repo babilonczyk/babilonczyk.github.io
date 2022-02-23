@@ -1,12 +1,21 @@
 .services {
-  min-height: 590px;
-  background-color: black; }
+  background-color: black;
+  display: grid;
+  grid-template-rows: auto;
+  min-height: 590px !important;
+  height: 100% !important;
+  overflow: auto; }
   .services .services-wrapper {
     max-width: 1100px;
-    width: calc(100% - 400px);
+    width: 100%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr; }
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 20px; }
+    @media only screen and (max-width: 780px) {
+      .services .services-wrapper {
+        grid-template-columns: 1fr; } }
     .services .services-wrapper .services-left {
       display: grid;
       grid-template-rows: 60px auto;
@@ -28,6 +37,9 @@
           border: 10px solid black;
           outline: 2px solid transparent;
           cursor: pointer; }
+          @media only screen and (max-width: 780px) {
+            .services .services-wrapper .services-left .services-btns .services-btn {
+              width: calc(100% - 60px); } }
           .services .services-wrapper .services-left .services-btns .services-btn h4 {
             padding: 20px 0 15px 20px;
             font-size: 18px;
@@ -45,10 +57,14 @@
             .services .services-wrapper .services-left .services-btns .services-btn.react-tabs__tab--selected h4 {
               color: #28b981; }
     .services .services-wrapper .services-right {
-      padding: 153px 0 0 0; }
+      padding: 155px 0 0 0; }
+      @media only screen and (max-width: 780px) {
+        .services .services-wrapper .services-right {
+          display: none; } }
       .services .services-wrapper .services-right .services-content {
-        width: 100%;
-        height: 365px; }
+        width: calc(100% - 30px);
+        height: 370px;
+        padding-right: 30px; }
         .services .services-wrapper .services-right .services-content .services-content-panel {
           display: none;
           position: relative; }
