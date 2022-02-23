@@ -773,14 +773,15 @@ body {
             color: #fff; }
             @media only screen and (max-width: 780px) {
               body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel h4 {
-                padding: 40px 10px 0 40px; } }
+                padding: 40px 0 0 40px; } }
           body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p {
             margin: 0;
             padding: 30px 60px 80px 105px;
             font-size: 16px;
             word-spacing: 3px;
             line-height: 36px;
-            color: #8a9097; }
+            color: #8a9097;
+            width: calc(100% - 165px); }
             body .App .experience .experience-box .experience-box-content .experience-box-content-box .experience-box-content-panel p span {
               display: block;
               margin: 13px 0; }

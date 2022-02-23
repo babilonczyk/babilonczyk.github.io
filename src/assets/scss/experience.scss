@@ -202,7 +202,8 @@
                         word-spacing: 3px;
                         line-height: 36px;
                         color: $paper-gray; 
-
+                        width: calc(100% - 165px);
+                         
                         span{
                             display: block;
                             margin: 13px 0;
