@@ -23,7 +23,7 @@ const Introduction: React.FC<IntroductionProps> = props => {
           & make it fly to the moon.
         </p>
 
-        <a href="/">LET'S CHAT!</a>
+        <a href="mailto: piotrzkowski.jan@gmail.com">LET'S CHAT!</a>
 
         <div className="counter">
           <div className="counter-referrals">
